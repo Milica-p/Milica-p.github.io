@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Početna stranica </title>
+        <meta charset="UTF-8">
+        <style>
+            button{
+                width: 70px;
+                height: 30px;
+                background-color: black;
+                text-align: center;
+                border-style: none;
+                color: gold;
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+
+            #dugmici{
+                width: 100%;
+                height: 50px;
+                background-color: black;
+            }
+            #slika{
+                width: 100%;
+                height: 12cm;
+                background-color: slategrey;
+                color: white;
+            }
+            #kontakt{
+                width: 100px;
+                height: 50px;
+            }
+            #footer{
+                background-color: black;
+                color: gold;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="dugmici">
+            <button> Home </button>
+            <button> Team </button>
+            <button> Contact </button>
+        </div>
+        <div id="slika">
+            <h1 style="text-align: center"> Advokatska kancelarija Marko M. Taušanović </h1>
+            <p style="font-size: 5em"> Ovde eventualno neki tekst </p>
+            <button id="kontakt"> Kontaktirajte nas </button>
+        </div>
+        <div>
+            <img src="slika11.jpg" alt="Neuspesno ucitavanje slike" title="Marko M. Taušanović">
+            <img src="slika2.jpg" alt="Neuspesno ucitavanje slike" width="373" height="558" title="Tamara Vujanović">
+        </div>
+        <div>
+            <img src="slika3.JPG" alt="Neuspesno ucitavanje slike" width="373" height="558">
+            <img src="slika4.JPG" alt="Neuspesno ucitavanje slike" width="373" height="558">
+        </div>
+
+        <div style="width: 50%; height: 12cm;">
+            <h3> Kontaktirajte nas </h3>
+            <form>
+                <p>Vaše ime* </p>
+                <input id="ime" type="text" name="ime" maxlength="50" required>
+                <br>
+                <p> Emali* </p>
+                <input id="mail" type="email" name="mail" maxlength="50" required>
+                <br>
+                <p> Naslov* </p>
+                <input id="naslov" type="text" name="naslov" maxlength="70" required>
+                <br>
+                <p> Vaša poruka* </p>
+                <input id="poruka" type="text" name="poruka" maxlength="500" required>
+                <br>
+            </form>
+            <button> Pošalji </button>
+        </div>
+        <div>
+            <p id="footer"> Telefon: 12345567
+            <br>
+            Email: nesto@gmail.com 
+            <br>
+            Adresa: Neka Ulica 123, 11000 Beograd</p>
+        </div>
+    </body>
+</html>

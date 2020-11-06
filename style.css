@@ -1,0 +1,200 @@
+/*uopsteno*/
+* {
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: Arial;
+}
+
+/*index stranica*/
+
+/*header*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-color: rgb(20, 22, 24);
+    padding: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+}
+.fa-bars{
+    color: rgb(255, 255, 255);
+    font-size: 30px !important;
+}
+
+a:hover{
+    background-color: rgb(255, 149, 96);
+}
+/*logo*/
+.navbar-brand img{
+    height: 60px;
+    width: auto;
+    top: 0;
+    left: 0;
+}
+
+/*dugme*/
+.dugme {
+    background-color: rgb(255, 149, 96);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+/*------banner section------*/
+#banner{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#banner img{
+    width: 400;
+    height: 400;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: rgb(48, 49, 51);
+}
+.tekst{
+    color: rgb(119, 119, 119);
+}
+
+/*-------pictures section------*/
+#pictures{
+    background-color: rgb(255, 255, 255);
+    padding-left: 0%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.containerOverlay {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 220;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+/* When you mouse over the container, fade in the overlay title */
+.containerOverlay:hover .overlay {
+  opacity: 1;
+}
+
+/*-----footer section---*/
+#footer{
+    background-color: rgb(20, 22, 24);
+}
+.footer{
+    color:white;
+    text-align: center;
+}
+
+
+/*kontakt stranica*/
+.kontaktSlika{
+    position: relative;
+}
+.kontaktSlika img{
+    width: 100%;
+    max-height: 500;
+    filter: blur(2px);
+}
+#kontakti{
+    background-color: rgb(255, 255, 255);
+
+}
+#kontaktimena{
+    color: rgb(48, 49, 51);
+    padding-left: 2%;
+}
+.caption{
+    padding-top: 2%;;
+    color: rgb(119, 119, 119);
+    width: 520;
+    padding-left: 5%;
+}
+
+
+
+/* SA STRANICE TIM KOJA VISE NIJE POTEBNA 
+.img-thumbnail {
+    display: inline-block;
+    max-width:210px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+.div_slika {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+#opisi{
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%;
+}
+.thumbnail{
+    padding-top: 5%;
+}
+*/
+
+/* stranice za osobe */
+.slikaOsobe img{
+    background-repeat: no-repeat;
+    filter: grayscale(100%) blur(1px);
+}
+.slikaOsobe {
+    position: relative;
+}
+.ime{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+}
+.tekstZaOsobe{
+    color: rgb(119, 119, 119);
+    padding-left: 5%;   
+}
+#kontaktimenaOsobe{
+    color: rgb(48, 49, 51);
+    padding-left: 5%;
+}
